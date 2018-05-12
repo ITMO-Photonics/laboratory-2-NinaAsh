@@ -15,7 +15,7 @@ def init(): #задаем сетку, размерностью...
     ax.set_ylim([0, 10.])
     return point,
 
-h=0.05
+h=0.05#shag
 g=-9.8
 def updatefig(frame):
     coord[1] = coord[1] + v[1]*h #движение происходит по ОУ,  
